@@ -1,4 +1,4 @@
-class Meth1
+class Meth
 {
   void calc(int a,int b)
   {
@@ -17,7 +17,7 @@ class UseMeth1
 {
 public static void main(String args[])
 {
-  Meth1 m=new Meth1();
+  Meth m=new Meth();
   m.calc(4,4);
   m.calc(4);
   m.calc(4.4f,3);
